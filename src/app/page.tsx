@@ -27,6 +27,12 @@ const Home = () => {
           <img src='https://nextjs-typescript-react-stripe-js.vercel.app/elements-card-payment.svg' alt='' />
         </Link>
       </li>
+      <li>
+        <Link href='/monthly-subscription' className='card elements-style-background'>
+          <h2 className='bottom'>Monthly Subscription</h2>
+          <img src='https://nextjs-typescript-react-stripe-js.vercel.app/elements-card-payment.svg' alt='' />
+        </Link>
+      </li>
     </ul>
   );
 };
